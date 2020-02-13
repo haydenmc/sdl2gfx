@@ -1,0 +1,1 @@
+cl.exe /LD /EHsc /Zi /std:c++17 /I src /I %SDLPATH%\include /Fe:SDL2_gfx /DDLL_EXPORT SDL2_framerate.c SDL2_gfxPrimitives.c SDL2_rotozoom.c SDL2_imageFilter.c SDL2.lib /link /LIBPATH:%SDLPATH%\lib\x64
